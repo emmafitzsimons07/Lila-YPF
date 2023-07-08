@@ -1,0 +1,141 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+</style>
+
+* {
+        margin: 0;
+    } 
+.sitio {
+    background-color: #a43fe8;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: large;
+    font-size: 40px
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: large;
+    font-size: large;
+}
+ 
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background-color: #a43fe8;
+}
+ul {
+    list-style: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+@media ( max-width: 800px) {
+    nav {
+       justify-content: center;
+        }
+ul {
+    width: 50%;
+}
+}
+
+@media ( max-width: 300px) {
+    nav {
+       justify-content: center;
+        }
+ul {
+    width: 50%;
+}
+}
+
+.form {
+    align-self: flex-end;
+    width: 90%;
+    margin-top: 10px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+   }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: .5rem
+  }
+  
+  .form button{
+    padding: .5em 1em;
+    border:none;
+    background: #a43fe8;
+    cursor: pointer;
+    color: white;
+    align-self: auto;
+  }
+  
+  .form-container{
+    max-width:700px;
+    margin-right: 600px
+  }
+  
+  .form-element {
+    display: block;
+    width: 80%;
+    margin-right: 600px;
+  }
+
+.usuarioimg {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: -40px;
+    float: left;
+}
+@media ( max-width: 800px) {
+    .form {
+       justify-content: center;
+        }
+.form-container {
+    width: 50%;
+}
+}
+
+@media ( max-width: 300px) {
+    .form {
+       justify-content: center;
+        }
+.form-element {
+    width: 50%;
+}
+}
+.usuario {
+    width: 100%;
+    max-width: 1000%;
+    margin: auto;
+    float: left;
+    }
+
+
+.footer {
+   background-color: #a43fe8;
+ margin-top: 519px;
+text-align: center;
+justify-content: flex-end;
+    }
+
+
+h4 {
+    color: white;
+}
+
+
